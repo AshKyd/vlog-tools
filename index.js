@@ -9,6 +9,7 @@ const renditions = require("./renditions.json");
 rimraf.sync(output);
 fs.mkdirSync(output);
 
+const start = new Date();
 const action = encodeRenditions({ input, renditions: renditions, output });
 action.on("progress", progress =>
   console.log(
@@ -17,3 +18,8 @@ action.on("progress", progress =>
     "minutes remaining"
   )
 );
+
+action.on("close", () => {
+  console.log("started at ", start);
+  console.log("finished at", new Date());
+});
