@@ -19,6 +19,7 @@ action.on("progress", progress =>
   )
 );
 
+action.on("log", console.log);
 action.on("close", () => {
   console.log("started at ", start);
   console.log("finished at", new Date());
