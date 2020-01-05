@@ -1,0 +1,51 @@
+[
+  {
+    "quality": "240p",
+    "resolution": [426, 240],
+    "bitrateLowMotion": "400k",
+    "bitrateHighMotion": "600k",
+    "bitrateAudio": "64k"
+  },
+  {
+    "quality": "360p",
+    "resolution": [640, 360],
+    "bitrateLowMotion": "700k",
+    "bitrateHighMotion": "900k",
+    "bitrateAudio": "96k"
+  },
+  {
+    "quality": "480p",
+    "resolution": [854, 480],
+    "bitrateLowMotion": "1250k",
+    "bitrateHighMotion": "1600k",
+    "bitrateAudio": "128k"
+  },
+  {
+    "quality": "HD 720p",
+    "resolution": [1280, 720],
+    "bitrateLowMotion": "2500k",
+    "bitrateHighMotion": "3200k",
+    "bitrateAudio": "128k"
+  },
+  {
+    "quality": "Full HD 1080p",
+    "resolution": [1920, 1080],
+    "bitrateLowMotion": "4500k",
+    "bitrateHighMotion": "5300k",
+    "bitrateAudio": "192k"
+  },
+  {
+    "quality": "Full HD 1080p HQ",
+    "resolution": [1920, 1080],
+    "bitrateLowMotion": "7000k",
+    "bitrateHighMotion": "9100k",
+    "bitrateAudio": "192k"
+  },
+  {
+    "quality": "4k",
+    "resolution": [3840, 2160],
+    "bitrateLowMotion": "14000k",
+    "bitrateHighMotion": "18200k",
+    "bitrateAudio": "192k"
+  }
+]
